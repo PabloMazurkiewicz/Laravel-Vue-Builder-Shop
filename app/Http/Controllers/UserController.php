@@ -7,6 +7,7 @@ use App\Http\Requests\RegisterRequest;
 use App\Models\News;
 use App\Models\User;
 use App\Models\Wishlist;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 
